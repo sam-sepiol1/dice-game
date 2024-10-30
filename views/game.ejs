@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title"><%= data.winner %></h2>
+        <table>
+            <tr>
+            <th>Player</th>
+            <th>Result</th>
+            <th>Score</th>
+            </tr>
+            <tr>
+            <td> Player 1</td>
+            <td><%= data.player1 %></td>
+            <td><%= data.player1Score %></td>
+            </tr>
+            <tr>
+            <td> Player 2</td>
+            <td><%= data.player2 %></td>
+            <td><%= data.player2Score %></td>
+            </tr>
+        </table>
+      
+        
+        <div class="controls">
+            <button class="control-button" onclick="window.location.reload();">Roll the Dice Again</button>
+            <form action="/reset">
+                <button class="control-button">Quit</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
