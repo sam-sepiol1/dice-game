@@ -8,7 +8,7 @@ This is a simple dice game where players roll dice to achieve the highest score.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/sam-sepiol1/Dice-Game
+    git clone https://github.com/sam-sepiol1/dice-game
     ```
 2. Navigate to the project directory:
     ```sh
