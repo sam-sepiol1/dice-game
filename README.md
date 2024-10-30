@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple dice game where players roll dice to achieve the highest score. The game can be played by 2 players and includes various features to enhance the gaming experience.
+This is a simple dice game where players roll dice to achieve the highest score. The game can be played by 2 players.
 
 ## Installation
 
