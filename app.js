@@ -2,6 +2,7 @@ import express from 'express';
 import game from './game.js';
 
 const app = express();
+const PORT = 3000;
 
 app.use(express.static('public'));
 
@@ -19,7 +20,4 @@ app.get('/reset', (req, res) => {
     res.redirect("/")
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server started at http://localhost:${PORT}`);
-});
+app.listen(PORT);
