@@ -5,13 +5,11 @@ function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 
-// Function to play a round and update the scores
 function playRound() {
     const player1 = rollDice();
     const player2 = rollDice();
     let winner;
 
-    // Determine the winner and update the scores
     if (player1 > player2) {
         winner = "Player 1 wins!";
         player1Score++;
